@@ -1,0 +1,39 @@
+.container h1{
+    text-align: center;
+    color: green;
+    font-family: Microsoft Yi Baiti;
+    
+}
+.contanier {
+    width: 100%;
+    background-color: blueviolet;
+}
+.container p{
+    width: 210px;
+    margin-left: 500px;
+    margin-top: 110px;
+}
+.navegacion a{
+    float: left;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Microsoft Yi Baiti;
+    
+}
+@media  (max-width: 700px) {
+    .navegacion a :first-child {display: none;}
+    .navegacion a.icon {
+      float: right;
+      display: block;
+      margin-left: 240px;
+    }
+    .container p{
+        width: 100%;
+        margin-left: 11px;
+       
+    }
+  }
